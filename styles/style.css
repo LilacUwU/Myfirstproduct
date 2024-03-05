@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background: rgba(41, 31, 46, 1);
+}
+
+.logo img{
+    width: 71px;
+    height: 71px;
+    margin-left: 160px;
+}
+
+.nav__list{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    margin-right: 160px;
+    margin-top: 20px;
+}
+
+.nav__list a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+
+.section{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.grid-item {
+    font-size: 30px;
+    text-align: center;
+}
+
+.grid_img{
+    width: 547px;
+    height: 550px;
+}
+
+.grid_text{
+    width: 733px;
+    height: 550px;
+    background: #291f2e;
+    font-weight: 600;
+    color: #fff;
+    line-height: 164px;
+    font-size: 94px;
+    text-align: left;
+}
+
+.grid_p{
+    margin-left: 20px;
+    font-family: "Manrope", sans-serif;
+}
+
+.context{
+    display: flex;
+    justify-content: center;
+    font-family: "Manrope", sans-serif;
+    font-size: 48px;
+    color: #291f2e;
+    line-height: 62px;
+    margin-top: 50px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    font-family: "Manrope", sans-serif;
+    margin-top: 50px;
+    font-size: 64px;
+}
+
+.img_section{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.grid-container1{
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+    padding: 10px;
+}
+
+.grid-item1{
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+}
+
+.content__list{
+    display: inline-block;
+    font-family: "Manrope", sans-serif;
+    font-size: 24px;
+    color: #291f2e;
+    line-height: 41px;
+    margin-top: 50px;
+    list-style: none;
+    width: 1280px;
+}
+
+.content__item{
+    margin-bottom: 80px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 67.2px;
+    color: #291f2e;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background: rgba(41, 31, 46, 1);
+}
